@@ -1,4 +1,4 @@
-# HdfsDataExchange(hdfs集群间数据交换)
+# HdfsDataExchanger(hdfs集群间数据交换)
 ## 
 ## 功能介绍：
   1. 不同版本的hdfs间文件迁移。
