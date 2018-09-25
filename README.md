@@ -11,4 +11,9 @@
 * 使用源FileSystem读取数据到缓冲区，然后使用目标FileSystem将缓冲区的数据写入到目标文件。
 
 ## 使用说明:
+* data-exchanger目录下包含完整的部署目录
+  1. h1为hadoop1的配置(conf)和先关的jar包(jars)
+  2. h2为hadoop2的配置(conf)和相关的jar包(jars)
+  3. main为主程序相关的配置(conf)、相关的jar包(jars)和启动脚本(bin)
+
   
