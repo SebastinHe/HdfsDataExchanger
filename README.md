@@ -48,4 +48,4 @@
       </tr>
     </table>
 *  执行
-    bin/run.sh src_path1 src_path2 ... dest_path
+      bin/run.sh src_path1 src_path2 ... dest_path   将src_pathX下的所有文件、目录复制到dest_path下
