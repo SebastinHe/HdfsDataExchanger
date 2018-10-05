@@ -3,6 +3,7 @@
 ## 功能介绍：
   1. 不同版本的hdfs间文件迁移。
   2. 本地文件系统与hdfs间文件迁移。
+  ![avatar](Resources/HdfsDataExchanger/1.jpg)  
 
 ## 原理说明:
 * 抽象一套hdfs文件操作接口。
