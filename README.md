@@ -47,5 +47,6 @@
     <td>源/目标对应的core-site.xml和hdfs-site.xml</td>
   </tr>
 </table>
-* 执行
+
+*  执行
     bin/run.sh src_path1 src_path2 ... dest_path
