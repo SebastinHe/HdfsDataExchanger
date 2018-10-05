@@ -21,25 +21,27 @@
   3. main/conf/parameter.xml
   <table>
   <tr>
-    <th>Tables</th>
-    <th>Are</th>
-    <th>Cool</th>
+    <th>参数名</th>
+    <th>说明</th>
   </tr>
   <tr>
-    <td>col 1 is</td>
-    <td>left-aligned</td>
-    <td>$1600</td>
+    <td>thread.count</td>
+    <td>并行进行迁移数据的线程数量</td>
   </tr>
   <tr>
-    <td>col 2 is</td>
-    <td>centered</td>
-    <td>$12</td>
+    <td>buffer.size</td>
+    <td>读取数据缓冲区大小</td>
   </tr>
   <tr>
-    <td>col 3 is</td>
-    <td>right-aligned</td>
-    <td>$1</td>
+    <td>src/dest.hdfs.resource.path</td>
+    <td>源/目标hadoop的jar包目录</td>
+  </tr>
+  <tr>
+    <td>src/dest.filesystem.implement</td>
+    <td>源/目标针对抽象出的hdfs接口的实现类，WebAppClassLoader根据此配置加载对应的实现</td>
+  </tr>
+  <tr>
+    <td>src/dest.hdfs.conf.path</td>
+    <td>源/目标对应的core-site.xml和hdfs-site.xml</td>
   </tr>
 </table>
-  
-  
