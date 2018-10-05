@@ -18,6 +18,10 @@
 * 配置说明
   1. h1和h2的jars目录下应该包含依赖的所有hadoop jar包，当前只包含了fdx-hadoopX-filesystem-1.0-SNAPSHOT.jar,用户在使用时需根据实际的hadoop版本自行编译，并将依赖的jar和编译出来的jar一并放到对应的目录下。
   2. main/jars目录放fdx-executor和fdx-filesystem-api编译出的jar以及依赖的所有jar。
-  3. main/conf/parameter.xml:
+  3. main/conf/parameter.xml
+      | 一个普通标题 | 一个普通标题 | 一个普通标题 |
+      | ------ | ------ | ------ |
+      | 短文本 | 中等文本 | 稍微长一点的文本 |
+      | 稍微长一点的文本 | 短文本 | 中等文本 |
   
   
