@@ -34,11 +34,11 @@
   </tr>
   <tr>
     <td>src/dest.hdfs.resource.path</td>
-    <td>源/目标hadoop的jar包目录</td>
+    <td>源/目标hdfs的jar包目录</td>
   </tr>
   <tr>
     <td>src/dest.filesystem.implement</td>
-    <td>源/目标针对抽象出的hdfs接口的实现类，WebAppClassLoader根据此配置加载对应的实现</td>
+    <td>源/目标针对抽象出的hdfs接口(com.sebastian.fdx.fs.api.BaseFileSystem)的实现类，WebAppClassLoader根据此配置加载对应的实现</td>
   </tr>
   <tr>
     <td>src/dest.hdfs.conf.path</td>
