@@ -12,7 +12,7 @@
 * 使用jetty的WebAppClassLoader分别加载两套(源和目标)hdfs相关的jar，并创建对应的FileSystem。
 * 使用源FileSystem读取数据到缓冲区，然后使用目标FileSystem将缓冲区的数据写入到目标文件。
 
-![avatar](https://github.com/SebastinHe/Resources/blob/master/HdfsDataExchanger/2.jpg?raw=true)
+  ![avatar](https://github.com/SebastinHe/Resources/blob/master/HdfsDataExchanger/2.jpg?raw=true)
 
 ## 使用说明:
 * data-exchanger目录下包含完整的部署目录
