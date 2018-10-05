@@ -48,4 +48,4 @@
   </tr>
 </table>
 * 执行
-    xxxx
+    bin/run.sh src_path1 src_path2 ... dest_path
