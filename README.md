@@ -47,3 +47,5 @@
     <td>源/目标对应的core-site.xml和hdfs-site.xml</td>
   </tr>
 </table>
+* 执行
+    xxxx
