@@ -1,12 +1,14 @@
 # HdfsDataExchanger(hdfs集群间数据交换)
 ## 
-## 功能介绍：
+## 背景
+   当前比较流行的hdfs间数据迁移工具有hadoop默认提供的distcp，阿里开源的DataX，这些工具能够满足常规的大部分需求，但是当时碰到hadoop版本不一致、keberos授权等场景时就行不通了。针对这些特殊的应用场景和实际需求我就构思并实现了HdfsDataExchanger这种实现方案。通过在一台可以访问两边hadoop集群的中转机上部署HdfsDataExchanger就可以实现将一个集群的数据迁移到另一个集群。HdfsDataExchanger提供单机多线程数据迁移，不支持分布式并行执行。
+## 功能介绍
   1. 不同版本的hdfs间文件迁移。
   2. 本地文件系统与hdfs间文件迁移。
   
   ![avatar](https://github.com/SebastinHe/Resources/blob/master/HdfsDataExchanger/1.jpg?raw=true)  
 
-## 原理说明:
+## 原理说明
 * 抽象一套hdfs文件操作接口。
 * 使用源集群和目标集群对应版本的hadoop分别实现接口。
 * 使用jetty的WebAppClassLoader分别加载两套(源和目标)hdfs相关的jar，并创建对应的FileSystem。
@@ -14,7 +16,7 @@
 
   ![avatar](https://github.com/SebastinHe/Resources/blob/master/HdfsDataExchanger/2.jpg?raw=true)
 
-## 使用说明:
+## 使用说明
 * data-exchanger目录下包含完整的部署目录
   1. h1为hadoop1的配置(conf)和相关的jar包(jars)
   2. h2为hadoop2的配置(conf)和相关的jar包(jars)
